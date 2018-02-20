@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>WEATHER APP</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- CSS File -->
+		<link rel="stylesheet" type="text/css" href="../Styles/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="mainContainerLoad container"id="waiting">
+			<div class="loader"></div>
+		</div>
+
+		<div class="mainContainer2 container-fluid">
+			<div class="row rowData">
+				<div class="col-md-offset-4 col-md-4 col-md-offset-4 col-xs-offset-2 col-xs-8 dataSpace">
+					<div class="row ">
+						<div class="col-md-12" id="city"></div>
+						<div class="col-md-12" id="time"> </div>
+						<div class="col-md-12 mainWeather" id="mainWeather"></div>
+						<div class="col-md-12 imagenWeather" id="weatherIcon"></div>
+						<div class="col-md-12 tempNum" id="temperature"></div>
+					</div>
+					<div class ="col-md-12 xtraSpace" id="otherData"></div>
+					<div class="col-md-12 buttonSpace">
+						<button class="button2" id="buttonBack"><a href="Index.html"> Back </a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--		</div>-->
+
+	<script src="../Javascript/main-javascript.js"></script>
+	</body>
+</html>

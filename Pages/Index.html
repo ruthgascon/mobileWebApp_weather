@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>WEATHER APP</title>
+		<!-- CSS File -->
+		<link rel="stylesheet" type="text/css" href="../Styles/styles.css">
+		<!-- Font awesome -->
+		<script src="https://use.fontawesome.com/115b4f3919.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="mainContainer container-fluid">
+			<div class="row">
+				<div class="col-md-offset-3 col-md-6 col-md-offset-3 col-xs-offset-1 col-xs-10 col-xs-offset-1 indexAllContent">
+					<h2> ENTER A CITY </h2>
+					<div class="searcher row col-md-offset-2 col-md-10 col-md-offset-2">
+						<input type="text" id="mySearchingInput" placeholder="Enter a city..." title="Type in a name" class="inputSpace col-md-7 col-md-offset-1 col-xs-8 col-xs-offset-2" >
+		<!--				<div class="col-md-ffset-1 col-md-3 hidden-sm">
+							<button class="button" id="buttonSearch" onclick="validateInput()">Search</button>
+						</div>-->
+					</div>
+					<div class="col-md-offset-2 col-md-8  col-md-offset-2">
+						<div class="message" id="messageCity"><a id="actualMessCity" href="weather.html">CITY HERE</a></div>
+						<div class="message" id="messageValidating"><p>validating data</p></div>
+						<div class="message" id="messageNoResults"><p>No results found.</p></div>
+						<div class="message" id="messageError"><p>Enter a city</p></div>
+					</div>
+				</div>
+
+			</div>
+			
+		</div>
+		<script src="../Javascript/main-javascript.js"></script>
+	</body>
+</html>
